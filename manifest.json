@@ -1,0 +1,18 @@
+{
+"start_url": "https://gustavospecht.com/",
+"scope": ".",
+"short_name": "Gustavo Portfolio",
+"name": "Gustavo Specht Portfolio",
+"description": "A Gustavo Specht Portfolio",
+"icons": [
+    {
+      "src": "./img/gustavoSpecht.png",
+      "sizes": "210x247",
+      "type": "png"
+    }
+  ],
+"prefer_related_applications": true,
+"theme_color": "#02A5DB",
+"background_color": "#FFFFFF",
+"display": "standalone"
+}

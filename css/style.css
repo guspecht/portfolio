@@ -1,0 +1,197 @@
+/* Start Global Area*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background: url(../img/sydney2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;    
+}
+
+/* End Global Area*/
+
+
+/* Start Header Area */
+header .navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+header .nav-link{
+    font-size: 1.5rem;
+}
+
+
+/* End header Area */
+
+
+/* Start Bannner Area */
+
+section#banner{
+    margin-top: 200px;
+}
+
+section#banner h1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+section#banner p{
+    font-size: 1.5rem;
+}
+
+/* End Bannner Area */
+
+
+/* Start Socials */
+
+section#socials{
+    text-align: center;
+    margin-top: 50px;
+}
+
+section#socials h5{
+    margin: 5px 0;
+    font-size: 2.5vw;
+    text-transform: uppercase;
+}
+
+section#socials a i{
+    font-size: 3rem;
+    padding: 2rem;
+    color: white;
+}
+
+section#socials a {
+    text-decoration: none;
+}
+
+section#socials .last{
+    margin-bottom: 50px;
+}
+
+section#socials .move:hover{
+    padding-top: 30px;
+}
+
+/* End Socials */
+
+
+/* Start Technologies */
+
+section#technologies {
+    padding: 30px 0px;
+}
+
+section#technologies img{
+    padding: 5px 33px;
+}
+
+/* End Technologies */
+
+
+/* Start Projects */
+
+section#projects h1{
+    padding: 70px 0px;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+section#projects p {
+    font-size: 1.1rem;
+}
+
+section#projects .card{
+    /* border: black 2px solid; */
+    box-shadow: 0px 2px 38px -10px rgba(0,0,0,1);
+    margin-bottom: 100px;
+}
+
+section#projects .card i{
+    font-size: 30px;
+}
+
+section#projects {
+background-color:#F8F8F8;
+
+    padding-bottom: 50px;
+}
+
+section#projects .legendz:hover{
+    content: url(../img/legendz.gif);
+}
+
+section#projects .gsy:hover{
+    content: url(../img/gustavoSpechtYoutube.gif);
+}
+
+section#projects .portfolio:hover{
+    content: url(../img/portfolio.gif);
+}
+
+section#projects .col-md-4{
+    padding: 0px 50px;
+}
+
+section#projects .desc {
+    padding-bottom: 40px;
+}
+
+section#projects ul {
+    padding: 0;
+    padding-left: 20px;  
+}
+
+section#projects h2 {
+    padding-bottom: 5px;
+}
+
+section#projects .project-info{
+    margin-bottom: 50px;
+}
+
+section#projects hr{
+    border: 1px solid black;
+    margin-bottom: 100px;
+}
+
+section#projects h3{
+    padding-bottom: 25px;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+/* End Projects */
+
+
+/* Start About Me */
+section#about-me h1{
+    font-weight: bold;
+    font-size: 4rem;
+    padding: 70px 0px;
+}
+
+section#about-me p {
+    font-size: 1.1rem;
+}
+
+/* End About Me */
+
+
+/* Start Footer */
+
+footer {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 100px;
+}
+
+/* End Footer */
