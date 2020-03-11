@@ -125,18 +125,6 @@ background-color:#F8F8F8;
     padding-bottom: 50px;
 }
 
-section#projects .legendz:hover{
-    content: url(../img/legendz.gif);
-}
-
-section#projects .gsy:hover{
-    content: url(../img/gustavoSpechtYoutube.gif);
-}
-
-section#projects .portfolio:hover{
-    content: url(../img/portfolio.gif);
-}
-
 section#projects .col-md-4{
     padding: 0px 50px;
 }
