@@ -21,19 +21,3 @@ window.addEventListener("load", ()=>{
 });
 
 // End Preload Imagens .gif
-
-
-
-// Start Animation
-const tl = gsap.timeline({ defaults: { ease: "power1.out" } });
-
-tl.fromTo(".navbar-brand", { opacity: 0 }, { opacity: 1, duration: 1 });
-tl.fromTo(".navbar-nav", { opacity: 0 }, { opacity: 1, duration: 1 }, "-=0.5");
-tl.fromTo("#banner", { opacity: 0 }, { opacity: 1, duration: 1 },"-=0.5");
-tl.fromTo("#socials", { opacity: 0 }, { opacity: 1, duration: 1 },"-=0.5");
-
-
-
-
-
-// End Animation
